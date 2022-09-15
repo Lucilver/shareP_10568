@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private val name = "nameKey"
     private val email = "emailKey"
     var sharedPreferences: SharedPreferences? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
